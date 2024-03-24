@@ -1,0 +1,25 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+
+
+# Create your views here.
+
+def func1(request):
+    return render(request,"app_aula/index.html")
+
+def estadio(request):
+    return render(request,"app_aula/estadio.html")
+
+def idolos(request):
+    return render(request,"app_aula/idolos.html")
+
+
+
+
+
+
+
+
+
+    
